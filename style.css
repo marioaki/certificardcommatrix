@@ -1,0 +1,117 @@
+/* importando fonte do google */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+/*  background do body conforme Figma*/
+body {
+  background-image: url(https://i.pinimg.com/originals/c5/9a/d2/c59ad2bd4ad2fbacd04017debc679ddb.gif);
+
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  margin: 40px;
+  padding: 8px;
+  background: #ecf4ff;
+  border-radius: 20px;
+}
+.perfil-foto {
+  margin: 10px;
+  border-radius: 460px;
+  height: 160px;
+}
+
+.perfil {
+  display: flex;
+  justify-content: left;
+}
+
+.titulo h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.titulo h3 {
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background: #ecf4ff;
+  margin-top: 50px;
+  padding: 8px 16px;
+  font-size: 20px;
+  border: 2px solid #0e1d2f;
+  border-radius: 100px;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projetos {
+  max-height: 900px;
+  overflow-y: scroll;
+
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1c1c1c;
+  background: linear-gradient(230.65deg, darkgreen 27.49%, lightgreen 83.19%);
+  text-align: center;
+  border-radius: 20px;
+}
+
+.projetosItem {
+  flex-direction: column;
+  text-decoration: none;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  list-style: none;
+}
+
+.conquistas {
+  flex-direction: column;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1c1c1c;
+  background: linear-gradient(230.65deg, darkgreen 27.49%, lightgreen 83.19%);
+  border-radius: 20px;
+  list-style: none;
+  max-height: 900px;
+  overflow-y: scroll;
+}
+
+.conquistasItem {
+  list-style: none;
+}
+.conquistas img {
+  max-height: 180px;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, darkgreen 27.26%, #6b87a9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+  border: 2px solid #0e1d2f;
+}
+
+.dark .tema button {
+  background: #333439;
+  color: #f6f6f6;
+  lighting-color: white;
+}
